@@ -1,5 +1,6 @@
 package com.example.nikolay.calculator;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
@@ -16,6 +17,8 @@ public class NetActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_net);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         mWebView = (WebView) findViewById(R.id.webView);
         // включаем поддержку JavaScript

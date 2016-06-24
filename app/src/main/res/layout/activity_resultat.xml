@@ -48,7 +48,8 @@
             android:id="@+id/textView"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,7 +58,8 @@
             android:id="@+id/txt_k1_1"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,7 +68,8 @@
             android:id="@+id/txt_k1_2"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +78,8 @@
             android:id="@+id/txt_k1_3"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -84,7 +88,8 @@
             android:id="@+id/txt_k1_4"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,13 +99,13 @@
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:layout_weight="1"
-            />
+            android:textSize="11dp" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/linearLayout2"
         android:layout_centerHorizontal="true"
         android:id="@+id/linearLayout3">
@@ -112,7 +117,9 @@
             android:layout_weight="1"
             android:textColor="#ffffff"
             android:textAlignment="center"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -121,7 +128,9 @@
             android:layout_weight="1"
             android:textColor="#ffffff"
             android:textAlignment="center"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -130,7 +139,9 @@
             android:layout_weight="1"
             android:textColor="#ffffff"
             android:textAlignment="center"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -139,7 +150,9 @@
             android:layout_weight="1"
             android:textColor="#ffffff"
             android:textAlignment="center"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -148,7 +161,9 @@
             android:layout_weight="1"
             android:textColor="#ffffff"
             android:textAlignment="center"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textIsSelectable="false" />
     </LinearLayout>
 
     <LinearLayout
@@ -334,7 +349,7 @@
             android:onClick="sendData2"
             android:textAlignment="center"
             android:allowUndo="true"
-            android:alpha="0.5" />
+            android:alpha="0.7" />
 
     </LinearLayout>
 

@@ -28,7 +28,8 @@
             android:id="@+id/tvResult1"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
             android:id="@+id/tvResult2"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,7 +50,8 @@
             android:id="@+id/tvResult3"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +61,8 @@
             android:id="@+id/tvResult4"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
     </LinearLayout>
 
@@ -78,7 +82,8 @@
             android:id="@+id/tvResult5"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,7 +93,8 @@
             android:id="@+id/tvResult6"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -98,7 +104,8 @@
             android:id="@+id/tvResult7"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -108,7 +115,8 @@
             android:id="@+id/tvResult8"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -127,7 +135,8 @@
             android:id="@+id/tvResult9"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -137,7 +146,8 @@
             android:id="@+id/tvResult10"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -147,7 +157,8 @@
             android:id="@+id/tvResult11"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -157,7 +168,8 @@
             android:id="@+id/tvResult12"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -176,7 +188,8 @@
             android:id="@+id/tvResult13"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -186,7 +199,8 @@
             android:id="@+id/tvResult14"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -196,7 +210,8 @@
             android:id="@+id/tvResult15"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -206,7 +221,8 @@
             android:id="@+id/tvResult16"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -227,7 +243,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -238,7 +254,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -249,7 +265,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -260,7 +276,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -280,7 +296,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -291,7 +307,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -302,7 +318,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -313,7 +329,7 @@
             android:layout_weight="1"
             android:textAlignment="center"
             android:textColor="#ffffff"
-            android:textSize="15dp" />
+            android:textSize="14dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -649,7 +665,7 @@
             android:id="@+id/btnMult"
             android:layout_weight="1"
             android:alpha="0.6"
-            android:layout_marginTop="10dp" />
+            android:layout_marginTop="0dp" />
     </LinearLayout>
 
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.example.nikolay.calculator;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -25,6 +26,8 @@ public class ResultatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultat);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         txt_k1_1 = (TextView) findViewById(R.id.txt_k1_1);
         txt_k1_2 = (TextView) findViewById(R.id.txt_k1_2);

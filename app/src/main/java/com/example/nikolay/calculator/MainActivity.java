@@ -2,6 +2,7 @@ package com.example.nikolay.calculator;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -88,6 +89,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
 
 
         txt_k1_1 = (TextView) findViewById(R.id.kpp1_1);
@@ -453,8 +457,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
         tvResult24.setText("(з2-4)" + String.format("%.1f", result24));
     }
 
-    public void onClick_varianty(View view) {
-      Intent intent = new Intent(MainActivity.this, NetActivity.class);
-       startActivity(intent);
-   }
 }

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikolay.calculator.ResultatActivity"
+    android:background="@drawable/nebo2"
+    android:clickable="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:alpha="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Выбирите вторую КПП"
+            android:id="@+id/vibor_2_kpp2"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:alpha="0.7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="К1:"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/txt_k1_1"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/txt_k1_2"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/txt_k1_3"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/txt_k1_4"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/txt_k1_z"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k111t"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k112t"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k113t"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k114t"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/k1_zt"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="газ 51"
+            android:layout_weight="1"
+            android:id="@+id/button5"
+            android:onClick="onClick_gaz_51t"
+            android:alpha="0.5" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ваз 2108"
+            android:layout_weight="1"
+            android:id="@+id/button6"
+            android:alpha="0.5"
+            android:onClick="onClick_vaz2108t" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout5">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="газ 52"
+            android:layout_weight="1"
+            android:id="@+id/button7"
+            android:onClick="onClick_gaz_52_3t"
+            android:alpha="0.5"
+            android:nestedScrollingEnabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ваз ока"
+            android:layout_weight="1"
+            android:id="@+id/button8"
+            android:alpha="0.5"
+            android:onClick="onClick_vaz_okat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout5"
+        android:id="@+id/linearLayout6">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="волга 2410"
+            android:layout_weight="1"
+            android:id="@+id/button11"
+            android:alpha="0.5"
+            android:onClick="onClick_volgat" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ваз 2101"
+            android:layout_weight="1"
+            android:id="@+id/button14"
+            android:onClick="onClick_vaz2101t"
+            android:alpha="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout6"
+        android:id="@+id/linearLayout7">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="мото &quot;урал&quot;"
+            android:layout_weight="1"
+            android:id="@+id/button15"
+            android:alpha="0.5"
+            android:onClick="onClick_uralt" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="рк уаз"
+            android:layout_weight="1"
+            android:id="@+id/button16"
+            android:alpha="0.5"
+            android:onClick="onClick_uaz_rkt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout7"
+        android:id="@+id/linearLayout8">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="кпп уаз"
+            android:layout_weight="1"
+            android:id="@+id/button"
+            android:alpha="0.5"
+            android:onClick="onClick_uazt" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="рк нива"
+            android:layout_weight="1"
+            android:id="@+id/button2"
+            android:alpha="0.5"
+            android:onClick="onClick_niva_rkt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout8"
+        android:id="@+id/linearLayout9">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="м412"
+            android:id="@+id/button18"
+            android:layout_weight="1"
+            android:onClick="onClick10t"
+            android:alpha="0.5" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="газ 69"
+            android:id="@+id/button19"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:onClick="onClick_gaz69t" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_alignParentStart="true"
+        android:baselineAligned="true"
+        android:id="@+id/linearLayout10">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="дальше"
+            android:id="@+id/button21"
+            android:layout_weight="1"
+            android:onClick="sendData2"
+            android:textAlignment="center"
+            android:allowUndo="true"
+            android:alpha="0.5" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:layout_marginStart="71dp"></FrameLayout>
+
+</RelativeLayout>
+

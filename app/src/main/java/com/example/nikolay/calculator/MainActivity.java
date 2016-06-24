@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-
     TextView etNum1;
     TextView etNum2;
     TextView etNum3;
@@ -72,7 +71,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     SeekBar seekbar3;
     SeekBar seekbar4;
     SeekBar seekbar5;
-
 
     TextView textview;
     TextView textview2;

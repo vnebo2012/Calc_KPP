@@ -17,12 +17,6 @@ public class NetActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_net);
 
-
-
-
-
-
-
         mWebView = (WebView) findViewById(R.id.webView);
         // включаем поддержку JavaScript
         mWebView.getSettings().setJavaScriptEnabled(true);
@@ -38,9 +32,6 @@ public class NetActivity extends AppCompatActivity {
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setDefaultFontSize(20);
         mWebView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
-
-        
-
 
     }
     private class MyWebViewClient extends WebViewClient

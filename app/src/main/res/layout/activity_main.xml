@@ -664,7 +664,7 @@
             android:text="РАСЧИТАТЬ  СКОРОСТЬ"
             android:id="@+id/btnMult"
             android:layout_weight="1"
-            android:alpha="0.6"
+            android:alpha="0.7"
             android:layout_marginTop="0dp" />
     </LinearLayout>
 

@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.nikolay.calculator.ResultatActivity"
-    android:background="@drawable/nebo2"
+    android:background="@drawable/nebo1"
     android:clickable="true">
 
     <LinearLayout
@@ -275,7 +275,7 @@
             android:onClick="sendData"
             android:textAlignment="center"
             android:allowUndo="true"
-            android:alpha="0.5" />
+            android:alpha="0.7" />
     </LinearLayout>
 
     <FrameLayout

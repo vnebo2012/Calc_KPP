@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Выбирите первую КПП"
+            android:text="Выберите первую КПП"
             android:id="@+id/vibor_2_kpp"
             android:textAlignment="center"
             android:layout_weight="1"

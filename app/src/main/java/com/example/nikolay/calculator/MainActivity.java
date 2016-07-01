@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.util.Locale;
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
     TextView etNum1;
@@ -143,7 +145,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                                           boolean fromUser) {
                 float weight = (5.0f - 1.0f) / (float) seekBar.getMax();
                 float value = 1.0f + seekBar.getProgress() * weight;
-                textview.setText(String.format("%.2f", value));
+                textview.setText(String.format(Locale.US,"%.2f", value));
 
 
             }
@@ -163,7 +165,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 float weight = (5.0f - 1.0f) / (float) seekBar.getMax();
                 float value = 1.0f + seekBar.getProgress() * weight;
-                textview2.setText(String.format("%.2f", value));
+                textview2.setText(String.format(Locale.US,"%.2f", value));
 
             }
 
@@ -181,7 +183,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 float weight = (120f - 34f) / (float) seekBar.getMax();
                 float value = 34f + seekBar.getProgress() * weight;
-                textview3.setText(String.format("%.0f", value));
+                textview3.setText(String.format(Locale.US,"%.0f", value));
 
             }
 
@@ -199,7 +201,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 float weight = (8.15f - 3.0f) / (float) seekBar.getMax();
                 float value = 3.0f + seekBar.getProgress() * weight;
-                textview4.setText(String.format("%.2f", value));
+                textview4.setText(String.format(Locale.US,"%.2f", value));
 
             }
 
@@ -217,7 +219,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 float weight = (4000f - 800f) / (float) seekBar.getMax();
                 float value = 800f + seekBar.getProgress() * weight;
-                textview5.setText(String.format("%.0f", value));
+                textview5.setText(String.format(Locale.US,"%.0f", value));
 
             }
 

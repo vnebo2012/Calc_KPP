@@ -667,16 +667,9 @@
             android:text="РАСЧИТАТЬ  СКОРОСТЬ"
             android:id="@+id/btnMult"
             android:layout_weight="1"
-            android:alpha="0.7"
-            android:layout_marginTop="0dp" />
+            android:alpha="0.9"
+            android:layout_marginTop="0dp"
+            android:textColor="#ffffff" />
     </LinearLayout>
-
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

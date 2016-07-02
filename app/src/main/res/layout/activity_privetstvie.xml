@@ -38,7 +38,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="39dp"
         android:textSize="30dp"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"

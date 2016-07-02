@@ -39,7 +39,9 @@
         android:layout_alignParentEnd="false"
         android:id="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout"
-        android:alpha="0.7">
+        android:alpha="0.7"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false">
 
         <TextView
             android:layout_width="wrap_content"
@@ -118,8 +120,10 @@
             android:textColor="#ffffff"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="12dp"
-            android:textIsSelectable="false" />
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:backgroundTint="#ffffff"
+            android:numeric="decimal" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -129,8 +133,10 @@
             android:textColor="#ffffff"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="12dp"
-            android:textIsSelectable="false" />
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:backgroundTint="#ffffff"
+            android:numeric="decimal" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -140,8 +146,10 @@
             android:textColor="#ffffff"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="12dp"
-            android:textIsSelectable="false" />
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:backgroundTint="#ffffff"
+            android:numeric="decimal" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -151,8 +159,10 @@
             android:textColor="#ffffff"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="12dp"
-            android:textIsSelectable="false" />
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:backgroundTint="#ffffff"
+            android:numeric="decimal" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -162,8 +172,10 @@
             android:textColor="#ffffff"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="12dp"
-            android:textIsSelectable="false" />
+            android:textSize="14dp"
+            android:textIsSelectable="false"
+            android:backgroundTint="#ffffff"
+            android:numeric="decimal" />
     </LinearLayout>
 
     <LinearLayout
@@ -199,7 +211,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout4"
         android:layout_alignParentStart="true"
-        android:id="@+id/linearLayout5">
+        android:id="@+id/linearLayout5"
+        android:layout_alignParentLeft="true">
 
         <Button
             android:layout_width="fill_parent"
@@ -338,7 +351,9 @@
         android:layout_below="@+id/linearLayout9"
         android:layout_alignParentStart="true"
         android:baselineAligned="true"
-        android:id="@+id/linearLayout10">
+        android:id="@+id/linearLayout10"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="true">
 
         <Button
             android:layout_width="fill_parent"
@@ -349,7 +364,9 @@
             android:onClick="sendData2"
             android:textAlignment="center"
             android:allowUndo="true"
-            android:alpha="0.7" />
+            android:alpha="0.7"
+
+            />
 
     </LinearLayout>
 
@@ -358,7 +375,9 @@
         android:layout_height="match_parent"
         android:layout_alignTop="@+id/linearLayout2"
         android:layout_toEndOf="@+id/linearLayout2"
-        android:layout_marginStart="71dp"></FrameLayout>
+        android:layout_marginStart="71dp"
+        android:layout_toRightOf="@+id/linearLayout2"
+        android:layout_marginLeft="71dp"></FrameLayout>
 
 </RelativeLayout>
 
